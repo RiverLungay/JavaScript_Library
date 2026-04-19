@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Intermediate</title>
+    <link href="css/app.css" rel="stylesheet">
+</head>
+
+
+
+<body class="w-screen h-screen border border-gray-500 rounded-md flex justify-center grid place-items-center">  <!-- Centralize the main div -->
+    
+
+
+<div class="w-[450px] h-[400px] "> <!--  main div -->
+
+<h1 class="text-gray-700 font-semibold">LIBRARY WEB APP </h1> <!--  main header -->
+
+<div class="w-[450px] h-[60px] border border-gray-500  mt-2 flex flex-box rounded-sm  shadow-md"><!--  Adding DIV -->
+
+<div class="w-[200px] h-[60px]  p-1 "><!--  Adding book title DIV -->
+
+<h1 class="text-black font-semibold text-[10px] ">Enter Book Title</h1>
+
+<input id="bookTitle" class="h-[25px] w-[190px] border border-gray-500 rounded-sm  text-[10px] p-1 "  type="text" placeholder="Enter book title" />
+
+
+</div>
+
+
+<div class="w-[250px] h-[60px]  p-1 "><!--  Adding author title DIV -->
+
+<h1 class="text-black font-semibold text-[10px] ">Enter Author</h1>
+
+<input id="bookAuthor"  class="h-[25px] w-[190px] border border-gray-500 rounded-sm  text-[10px] p-1"  type="text" placeholder="Enter book Author" />
+<input id="save_btn" type="submit"  class="h-[25px] w-[45px] border border-gray-500 rounded-sm  text-[10px] p-1  font-bold bg-black hover:bg-violet-600 transition duration-300 ease-in-out text-white hover:-translate-y-1  " value="Save" />
+</div>
+
+
+
+
+</div><!-- / Adding DIV -->
+<h1 class="text-gray-700 font-semibold mt-5">Books </h1> <!--  main header -->
+<div class="w-[450px] h-[30px]  flex flex-box rounded-sm  "><!--  Search DIV -->
+
+
+
+
+
+<input id="search_title" class="h-[25px] w-[223px] border border-gray-500 rounded-sm  text-[10px] p-1 "  type="text" placeholder="Search Book" />
+
+<input id="search_author" class="h-[25px] w-[223px] border border-gray-500 rounded-sm  text-[10px] p-1 ml-1 "  type="text" placeholder="Search Author" />
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div id="load_books" class="w-full h-[150px]  border border-gray-300 mt-1 rounded-sm shadow-md p-1 overflow-x-auto   "><!--  Load Books Div -->
+
+
+
+
+
+
+
+</div><!-- / Load Book DIV -->
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
